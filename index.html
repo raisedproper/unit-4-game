@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Crystal Collector</title>
+    <link href="https://fonts.googleapis.com/css?family=Anton|Shrikhand" rel="stylesheet">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  </head>
+  <body>
+
+    <h3 id="header">Danny's Crystal Collector</h3>
+
+    <p class="instructions">
+      <b>Guess what numbers are behind the crystals.</b> 
+      Here's how the game works:
+    </p>
+      
+    <p class="instructions"> 
+      There will be four crystals displayed as buttons on the page.
+      You will be shown a random number at the start of the game.
+    </p>
+      
+    <p class="instructions">
+      Each time you click on a crystal, it will add a specific amount of points to the your total score. 
+    </p>  
+      
+    <p class="instructions">
+      The game will hide this amount until the player clicks a crystal.
+      When you do click one, your score counter will update.
+    </p>  
+      
+    <p class="instructions">
+      You win if your total score matches the random number from the Random Number Result.
+      You lose if your score goes above the random number.
+      
+      The game will restarts when the when you win or lose.
+    </p> 
+      
+
+    <p id="result"></p>
+    <div class="crystals">
+    </div>
+
+    <p id="previous"></p>
+
+    <P id="win"></P>
+    
+    <p id="lost"></p>
+   
+
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+  </body>
+</html>

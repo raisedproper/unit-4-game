@@ -1,0 +1,42 @@
+.crystals {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.crystal {
+    border: 1px solid black;
+    height: 200px;
+    width: 200px;
+    border-radius: 4px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    transition: box-shadow 1s, transform 2s;
+
+}
+
+.crystal:hover{
+    box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    transition: box-shadow 1s, transform 2s;
+}
+
+img {
+
+width: 50px;
+}
+
+body {
+    font-family: 'Anton', sans-serif;
+    font-size: 30px;
+}
+
+h3 {
+    text-align: center;
+
+}
+
+.instructions {
+    font-size: 15px;
+    text-align: center;
+}
+
